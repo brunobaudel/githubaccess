@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/show_projects_navigation"
+    app:startDestination="@id/showProjectsFragment">
+
+    <fragment
+        android:id="@+id/showProjectsFragment"
+        android:name="com.estudos.githubshowprojects.presentation.ShowProjectsFragment"
+        android:label="fragment_show_projects"
+        tools:layout="@layout/fragment_show_projects" />
+</navigation>
